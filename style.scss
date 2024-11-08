@@ -14,7 +14,7 @@
     border-radius: 4px;
   }
   
-  /* Stile per la spunta */
+   /* Stile per la spunta */
   .checks input[type="checkbox"]:checked + .checkmark::after {
     content: "✔"; 
     color: #ccc; 
