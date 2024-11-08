@@ -1,0 +1,31 @@
+.avatar-img {
+    max-height: 30px;
+    width: auto;       
+    object-fit: contain; 
+  }
+
+  .checks {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #222; 
+    border: 1px solid #444; 
+    position: relative;
+    border-radius: 4px;
+  }
+  
+  /* Stile per la spunta */
+  .checks input[type="checkbox"]:checked + .checkmark::after {
+    content: "✔"; 
+    color: #ccc; 
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hr1 {width: auto;
+  }
+
+ 
